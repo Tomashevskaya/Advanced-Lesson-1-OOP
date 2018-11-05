@@ -16,6 +16,7 @@ namespace Advanced_Lesson_1_OOP
 
             Transport unknowedTransport = new Transport { Distance = 34, MaxSpeed = 5 };
             unknowedTransport = new FuelCar() { FuelUsage = 10, Fuel = 45, Distance = 25045 };
+            var fuel = ((FuelCar)unknowedTransport).Fuel;
 
             FuelCar maserati = new FuelCar() { FuelUsage = 10, Fuel = 45, Distance = 25045 };
             Transport winner = maserati;
